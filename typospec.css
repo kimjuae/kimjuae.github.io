@@ -1,0 +1,381 @@
+@charset "UTF-8";
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* CSS Document */
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+body{
+	margin: 0px;
+	}
+
+#warp1 {
+	padding: 30px;
+	background-color: #E9E9E9
+}
+
+/*------------------------------------------------------warp2 black version*/
+
+#warp2{
+	padding: 30px;
+	background-color: black;
+	color:white;
+}
+
+#warp2 a:link,#warp2 a:visited{
+	color: white;
+	text-decoration: none;
+	}
+
+#warp2 a:hover{
+	color: gray;
+	}
+
+
+
+
+
+/*------------------------------------------------------typograpy*/
+
+h1, h2, h3, h4, p {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 70pt;
+}
+
+h2{
+	font-size: 50pt;
+}
+
+h3 {
+	font-size: 28pt;
+	line-height: 28pt;
+}
+
+h4 {
+	font-size: 18pt;
+}
+
+p {
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-size: 14pt;
+	line-height: 20pt;
+	font-weight: 400;
+	}
+
+.korean{
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	word-break : keep-all;/* 단어 단위 줄바꿈 */
+	word-wrap : break-word;/* 문자열 강제 줄바꿈 */
+	font-size: 14pt;
+	line-height: 24pt;
+	font-weight: 400;
+}
+
+#resume-link a{
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-weight: normal;
+}
+
+
+
+
+/*------------------------------------- resume*/
+.resume p{
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-size: 12pt;
+	line-height: 20pt;
+	font-weight: 400;
+}
+
+.resume p span{
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-weight: bold;
+}
+/*------------------------------------ link*/
+
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+	}
+
+a:hover{
+	color: gray;
+	}
+
+
+/* ---------------------------------- menu */
+.flex-container1 {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.box0, .box1 {
+	width: 16.66%
+} /* index 때문에 box0이 생겼습니다. */
+
+.box2 {
+	width: 25%
+}
+
+.top-box {
+	padding-top: 50px;
+}
+
+.menu a {
+	float: left;
+	margin: 0px;
+	padding-right: 30px;
+	font-size: 14pt;
+}
+
+/* ---------------------------------- title-box*/
+
+.box3 {
+	width: 16.66%;
+	float: left;
+}
+
+
+
+/* ---------------------------------- content-box */
+.content-box1 {
+	width: 50%;
+	padding-right: 15px;
+	float: left;
+}
+
+.content-box2 {
+	width: 50%;
+	padding-left: 15px;
+	display: inline-block;
+}
+
+.margin-right{
+	margin-right: 30px;
+}
+
+
+
+/* --------------------------------- topline */
+.border-top{
+	border-top: solid 1.5px black;
+	padding-top: 15px;
+}
+
+/* 	-----------------------------------underline */
+.border-bottom p{
+	border-bottom: 1px solid #535353;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+/* 	-----------------------------------btn - 오버되면 블랙으로 변하는 버튼 */
+.btn-top{
+	border-top: solid 1.5px black;
+	}
+
+.btn{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: solid 1px black;
+	}
+
+.btn a:link, .btn a:visited{
+	color: #5C5C5C;
+	}
+
+.btn a:hover{
+	color: white;
+	}
+
+.btn:hover{
+	color: white;
+	background: black;
+	}
+
+
+/* 	-----------------------------------nav 네비게이션 */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	border-top: solid 1.5px black;
+	}
+
+li{
+	font-size:14pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: solid 1px #929292;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+/* --------------------------------- scroll namelist div - 스크롤하면서 볼수있는 이름 리스트 메뉴 */
+.name-div{
+	height: 300px;
+	border-top: 1.5px solid black;
+	overflow: scroll;
+	-ms-overflow-style: none; /* 스크롤기능은 되지만 스크롤 바는 살아있는!  스크롤 바 제거 !E and Edge */
+  scrollbar-width: none; /* 스크롤기능은 되지만 스크롤 바는 살아있는!  스크롤 바 제거 !Firefox */
+}
+.name-div::-webkit-scrollbar {
+    display: none; /* 스크롤기능은 되지만 스크롤 바는 살아있는!  스크롤 바 제거 ! Chrome, Safari, Opera*/
+}
+
+
+.name-div p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 14pt;
+	color: #929292;
+	border-bottom: solid 1px #929292;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.name-div:hover{
+	background-color: black;
+	color: white;
+	cursor: row-resize;
+}
+
+.name-div p:hover{
+	color: #ffffff;
+}
+
+/* --------------------------------- list up - 바디 리스트 div */
+
+.new-box-div{
+	width: 49.98%;
+	margin-right: 0px;
+}
+
+.new-box {
+	border-bottom: 1px solid #929292;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12pt;
+	line-height: 18pt;
+}
+
+.title {
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-weight: normal;
+}
+
+.explain{
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-weight: normal;
+	font-size: 12pt;
+	line-height: 16pt;
+}
+
+
+
+/* 	----------------------------------- photo div - 이미지 갤러리. 오버되면 백그라운드가 블랙으로 변한다 */
+.photo-div {
+	border-top: 1.5px solid black;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 450px;
+	text-align: center;
+}
+
+.photo-div p{
+	font-size: 12pt;
+}
+
+.photo-div:hover{
+	background-color: black;
+	padding:5px;
+	color: white;
+}
+
+
+.photo-div img{
+	border-radius: 50%;
+	margin-top: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+.photo-div:hover img{
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 0px;
+}
+
+
+/* --------------------------------- top button */
+.top-btn {
+	margin-bottom: 60px
+}
+.top-btn a{
+	padding: 30px;
+	float: right;
+	background-color: #ffffff;
+	border-radius: 500px;
+	font-style: italic;
+	color: #595959;
+	}
+
+.top-btn a:hover {
+	color: white;
+	background: none;
+	background-color: black;
+	text-decoration: none;
+}
+
+
+
+/* --------------------------------- footer*/
+.footer {
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 12pt;
+	color: white;
+	background-color: #4D4D4D;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.footer	a:link,.footer a:visited{
+	color: white;
+	text-decoration: none;
+	}
+
+
+.footer a:hover{
+	color: gray;
+	}
