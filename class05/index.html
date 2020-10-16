@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kimjuae</title>
+
+<style>
+
+*{
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	}
+
+body {
+	margin: 10px;
+	background-color: #F3F3F3;
+	}
+
+div {
+	padding:30px;
+	}
+
+
+/* kimjuae*/
+
+.box1 {
+	font-size: 32pt;
+	border: 1px solid #000000;
+	}
+
+/* portfilo */
+
+.flex-container1, .flex-container2, .flex-container3, .sticky1, .sticky2, .sticky3 {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 0px;
+
+	border: 1px solid #000000;
+	border-top: none;
+	font-size: 24pt;
+	}
+
+.box1_1, .box1_2{
+	width: 50%;
+	}
+
+
+/* background */
+.flex-container1:hover{
+	background-color: #868686;
+	}
+
+.flex-container2:hover{
+	background-color: #606060;
+	}
+
+.flex-container3:hover{
+	background-color: #373737;
+	}
+
+
+/* link */
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: white;
+	text-decoration: underline;
+}
+
+
+/* .scroll down */
+	.scroll{
+	text-align: center;
+	border: 1px solid #000000;
+	border-top: none;
+	padding: 10px;
+	font-size: 14pt;
+	}
+
+/* type */
+	.type{
+	background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+	color: white;
+	font-size: 100pt;
+	text-align: center;
+	padding: 100px;
+	line-height: 100pt;
+	}
+
+	.type:hover{
+	color: white;
+	opacity: 1;
+	}
+
+
+/* sticky */
+
+	.sticky1, .sticky2, .sticky3 {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 0px;
+	background: #f3f3f3;
+	border: 1px solid #000000;
+	border-bottom: none;
+	}
+
+	.sticky1 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: -2
+	}
+
+	.sticky2 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 100px;
+	z-index: -1;
+	text-align: center;
+	}
+
+	.sticky3 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 200px;
+	z-index: 0;
+	text-align: right;
+	border-bottom: 1px solid #000000;
+	}
+
+	.title{;
+	font-size: 42pt;
+	}
+
+	.text{
+	background-color: #ffffff;
+	font-size: 18pt;
+	line-height: 26pt;
+	text-align: left;
+	}
+
+
+</style>
+</head>
+
+<body>
+
+	<!--one!-->
+	<div class="box1">Kim juae,<br>
+	UX/Digital Media Design
+	</div>
+
+
+	<div class="flex-container1">
+		<div class="box1_1">PORTFILO</div>
+		<div class="box1_2"> <a href="class/works.html">WORK</a> <a href="class/about.html">ABOUT</a> <a href="class/wish.html">WISH</a> <a href="class/resume.html">RESUME</a></div>
+	</div>
+
+	<div class="flex-container2">
+		<div class="box1_1">TEST</div>
+		<div class="box1_2"> <a href="class03/index.html">MAIN03</a> <a href="class03/class03-1.html">TEST03</a> <br><a href="class05/newspaper.html">NEWSPAPER(new)</a> </div>
+	</div>
+
+	<div class="flex-container3">
+		<div class="box1_1">CLASS</div>
+		<div class="box1_2"> <a href="class03/class03-2.html">CLASS03</a> <a href="class03/class03-2.html">CLASS04</a> <br><a href="class05/class05.html">CLASS05(new)</a></div>
+	</div>
+
+	<div class="scroll">scroll down</div>
+
+
+	<!--two!-->
+	<div class="type">
+		Thinking<br>
+		Idea<br>
+		Growth<br>
+	</div>
+
+
+
+
+	<!--three!-->
+	<div class="sticky1">
+		<div class="box1_1 title">Thinking</div>
+		<div class="box1_2 text"> <br><br>세상의 이야기에 눈과 귀를 열어두고, 어떠한 이야기든지 “왜”라는 질문에 도전하고 탐구합니다.<br><br></div>
+	</div>
+	<div class="sticky2">
+		<div class="box1_1 title">idea</div>
+		<div class="box1_2 text"> <br><br>아이디어를 수집하고, 정리합니다. 새로운 시각에서 바라보고 키워드를 도출합니다. 도출된 키워드, 규칙에 따라 주제를 시각화하여 생각을 전달합니다.<br><br></div>
+	</div>
+	<div class="sticky3">
+		<div class="box1_1 title">growth</div>
+		<div class="box1_2 text"><br><br>한 단계 더 나아가서 지속가능한 발전을 이루기 위해 끊임없이 도전합니다.<br><br></div>
+	</div>
+	<!--three!-->
+	<div style="text-align: center">
+	<p><b>contect</b></p>
+	<p>archive_juae@gmail.com<br>
+	+82 10. 8501. 9329<br>
+	<a href="https://www.instagram.com/zuae_work/">Instagram</a> <a href="https://www.behance.net/kimjuae_">Facebook</a><br></p>
+	</div>
+
+	<div>
+	  <a href="../index.html">BACK</a>
+	</div>
+
+</body>
+</html>
